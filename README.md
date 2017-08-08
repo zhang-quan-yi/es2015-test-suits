@@ -7,6 +7,8 @@
 * 名词解释参考了[MDN(火狐开发者网站)](https://developer.mozilla.org/en-US/)；
 * 内容以测试用例的方式展现:
 
+ ![content](./lib/img/c1.png)
+
 #### Package Used
 * karma
 * jasmine
