@@ -7,8 +7,6 @@
 * 名词解释参考了[MDN(火狐开发者网站)](https://developer.mozilla.org/en-US/)；
 * 内容以测试用例的方式展现:
 
-![img](/Users/zqy/Desktop/屏幕快照 2017-08-08 下午12.25.36.png)
-
 #### Package Used
 * karma
 * jasmine
@@ -64,6 +62,7 @@ Usage: npm run chapter [num]
 ```
 
 ### 问题：
+
 > 1. Uncaught ReferenceError: jasmine is not defined 
 
 解决方法：
@@ -109,7 +108,7 @@ Usage: npm run chapter [num]
 最后，`node_modules/karma-jasmine-html-reporter/src/index.js`文件看起来是这样
 
 ```javascript
-var initReporter = function(files,  baseReporterDecorator) {
+  var initReporter = function(files,  baseReporterDecorator) {
   var jasmineCoreIndex = 0;
 
   baseReporterDecorator(this);
@@ -132,8 +131,3 @@ var initReporter = function(files,  baseReporterDecorator) {
   files.push(createPattern(__dirname + '/lib/livereload.js'));
 };
 ```
-
-
-
-
-
