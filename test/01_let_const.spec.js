@@ -1,4 +1,4 @@
-describe('Day 1',function(){
+describe('Day 1: let and const',function(){
     describe('1) let',function(){
         it('1-1) 支持区域作用域(block scope)',function(){
             {
