@@ -1,0 +1,31 @@
+{
+  "name": "es2015",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "chapter": "node ./bin/es2015.js",
+    "help": "node ./bin/help.js",
+    "test": "karma start",
+    "jasmine": "jasmine JASMINE_CONFIG_PATH=jasmine.json"
+  },
+  "author": "zhl",
+  "license": "ISC",
+  "devDependencies": {
+    "chalk": "^2.0.1",
+    "co": "^4.6.0",
+    "jasmine": "^2.6.0",
+    "jasmine-core": "^2.6.3",
+    "karma": "^1.7.0",
+    "karma-chrome-launcher": "^2.1.1",
+    "karma-jasmine": "^1.1.0",
+    "karma-jasmine-html-reporter": "^0.2.2",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-webpack": "^2.0.4",
+    "shelljs": "^0.7.8",
+    "socket.io-client": "^2.0.3",
+    "thunkify": "^2.1.2",
+    "webpack": "^3.2.0",
+    "yargs": "^8.0.2"
+  }
+}

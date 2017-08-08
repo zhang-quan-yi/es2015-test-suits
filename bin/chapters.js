@@ -1,0 +1,22 @@
+module.exports = [
+    ['chapter 01','let and const'],
+    ['chapter 02','variable destructuring'],
+    ['chapter 03','string extend(not finish yet)','red'],
+    ['chapter 04','regular express extend(not finish yet)','red'],
+    ['chapter 05','math extend'],
+    ['chapter 06','array extend'],
+    ['chapter 07','function extend'],
+    ['chapter 08','object extend'],
+    ['chapter 09','Symbol'],
+    ['chapter 10','Set and Map'],
+    ['chapter 11','Proxy'],
+    ['chapter 12','Reflect'],
+    ['chapter 13','Promise'],
+    ['chapter 14','Iterator'],
+    ['chapter 15','Generator basic'],
+    ['chapter 16','Generator async'],
+    ['chapter 17','async function'],
+    ['chapter 18','class basic'],
+    ['chapter 19','class extend'],
+    ['chapter all','run all chapter test suit']
+];
