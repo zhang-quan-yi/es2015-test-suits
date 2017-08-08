@@ -44,7 +44,7 @@ function getTestSuitFile(){
     }else if(chapter>0||chapter<=19){
         chapter = chapter<10?('0'+ chapter):chapter;
 
-        let result = sh.exec('ls ./test',{silent: true});
+        let result = sh.ls('./test');
         result = result.stdout.split("\n");
         if(result.length>0){
             result.forEach(function(item){
